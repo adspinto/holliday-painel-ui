@@ -1,0 +1,35 @@
+.success {
+    padding: 10px;
+    background-color: #DAF7A6;
+    border-radius: 5px;
+}
+
+.qtd-botao {
+    padding: 5px 10px;
+    background-color: #222222;
+    color: #fff;
+    border-radius: 5px;
+    border-style: none;
+    
+}
+.quantidade {
+    width: 3.4vw !important;
+}
+.form-controle {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0;
+}
+
+.qtd-danger {
+    padding: 10px;
+    background-color: #FF3936;
+    border-radius: 5px;
+    color: #fff !important;
+}
+
+@media only screen and (max-width: 992px ){
+    .quantidade {
+        width: 12.4vw !important;
+    }
+}
