@@ -40,7 +40,7 @@ module.exports = {
             },
             {
                 test: /\.css$/,
-                use:   "css-loader"
+                use: "css-loader"
 
             },
             {
@@ -55,4 +55,5 @@ module.exports = {
         ]
     },
     devtool: 'source-map'
+    // devtool: 'eval'
 }

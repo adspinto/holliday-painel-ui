@@ -1,0 +1,36 @@
+.car-controle {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0;
+}
+
+.car-group {
+    margin: 10px 0;
+}
+
+.car-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.title-center {
+    text-align: center;
+}
+.main_class, .slide_interval, .slide_transition {
+    width: 25vw;
+    height: auto !important;
+}
+
+@media only screen and (max-width: 425px) {
+    .car-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .slide_interval {
+        font-size: 16px !important;
+        height: auto !important;
+        padding: 10px !important;
+    }
+}
