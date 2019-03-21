@@ -1,0 +1,23 @@
+.revisao-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rev-list {
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+    margin: 25px 0;
+    padding: 10px;
+    border-bottom: 2px solid #555555;
+}
+
+.allowed {
+    background-color: rgba(218, 247, 166, 0.4)
+}
+
+.not-allowed {
+    background-color: rgba(255, 0, 0, 0.4)
+}

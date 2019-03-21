@@ -1,6 +1,7 @@
 import React from 'react'
 import QuantidadeMinima from './qtd-minima/qtd_minima';
 import CarouselControle from './carousel/carousel';
+import Revisao from './avaliacoes/revisao';
 
 export default class Painel extends React.Component {
     constructor() {
@@ -21,6 +22,8 @@ export default class Painel extends React.Component {
                         <QuantidadeMinima />
                         <hr />
                         <CarouselControle />
+                        <hr />
+                        <Revisao />
                     </div>
                 </div>
             </div>
