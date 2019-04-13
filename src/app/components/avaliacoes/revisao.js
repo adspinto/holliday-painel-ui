@@ -46,6 +46,7 @@ export default class Revisao extends React.Component {
             })
             .then(response => {
                 let classlist = [..._this.state.aval_class]
+                console.log(allow)
                 if (allow == 0) {
                     classlist[index].className = "not-allowed"
                     this.setState({ aval_class: classlist })
@@ -153,8 +154,8 @@ export default class Revisao extends React.Component {
                             </div>
                         </div>
                         <div>
-                            <div onClick={() => this.handleSubmit(aval.id, 1, index)}>Adicionar ao Carousel</div>
-                            <div onClick={() => this.handleSubmit(aval.id, 0, index)}>Remover do Carousel</div>
+                            <div className="btn-carousel" onClick={() => this.handleSubmit(aval.id, 1, index)}>Adicionar ao Carousel</div>
+                            <div className="btn-carousel" onClick={() => this.handleSubmit(aval.id, 0, index)}>Remover do Carousel</div>
                         </div>
                     </div>
                 )
